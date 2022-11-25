@@ -57,6 +57,13 @@ FD     FunctionalDependency
    
    So,AE,BE and DE can take the place as a candidate key.
     
-   In this case AE,BE,DE are prime attributes.
+   In this case A,B,E,D are prime attributes.
    
 ```
+- Functional dependency tells the realtionship of attributes
+### 1nf : a table should not contain multivalued attributes
+### 2nf : 1nf + all the non prime attributes should be fully functional dependent on the candidate key.
+```
+if the candidate key is a combination of two attributes(**AB**) the non prime attribute(**C**)should not depent on a part of the candidate key (that is **A** or **B**) which is called partial dependency.
+```
+### 3nf : 2nf + no nonprime attribute of R is transitively dependent on the primary key.
