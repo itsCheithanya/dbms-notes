@@ -66,7 +66,9 @@ FD     FunctionalDependency
 ```
 if the candidate key is a combination of two attributes(**AB**) the non prime attribute(**C**)should not depent on a part of the candidate key (that is **A** or **B**) which is called partial dependency.
 ```
+```
 ### REMEDY:make a new table having non-prime attribute with the part of the candidate key and make the part of the candidate key as the new primary key in that new table and remove the non-prime attribute from the original table
+```
 
 ## 3nf : 2nf + no nonprime attribute of R is transitively dependent on the primary key.
 
