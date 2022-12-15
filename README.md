@@ -67,3 +67,12 @@ FD     FunctionalDependency
 if the candidate key is a combination of two attributes(**AB**) the non prime attribute(**C**)should not depent on a part of the candidate key (that is **A** or **B**) which is called partial dependency.
 ```
 ### 3nf : 2nf + no nonprime attribute of R is transitively dependent on the primary key.
+
+that is left hand side of FD should be a candidate key or the right hand side of FD should be a prime attribute
+
+### BCNF :3nf + it is more restrictive than 3nf 
+
+that is left hand side of FD should be a candidate key and the right hand side of FD can be a prime attribute/non-prime attribute
+### 4nf : 3nf + no multivalued dependency
+
+### 5nf : 4nf + lossless decomposition.
