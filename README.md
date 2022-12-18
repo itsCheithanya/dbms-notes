@@ -75,7 +75,7 @@ if the candidate key is a combination of two attributes(**AB**) the non prime at
 
 that is left hand side of FD should be a candidate key or the right hand side of FD should be a prime attribute
 ```
-### REMEDY: make a new table having the non-prime attribute with its dependending key and make its dependending key as the new primary key in that new table and remove the non-prime attribute from the original table
+### REMEDY: make a new table having the non-prime attribute with its dependending attribute and make its dependending aattribute as the new primary key in that new table and remove the non-prime attribute from the original table
 
 # BCNF :3nf + it is more restrictive than 3nf 
 ```
